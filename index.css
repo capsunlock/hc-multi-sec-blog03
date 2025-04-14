@@ -1,0 +1,266 @@
+/* css page */
+*{
+  margin: 0;
+}
+
+/* first section -> blue and white surface */
+.sec-zero{
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 99%;
+  height: 60px;
+}
+/* css blue background */
+.blue-surf {
+  background-color: rgba(9, 9, 95, 0.793);
+  height: 45px;
+  width: 45%;
+  color: red;
+  text-align: center;
+  padding-top: 15px;
+  font-size: larger;
+  }
+
+.sec-zero button{
+  margin: 0;
+  padding: 0;
+  height: 33px; 
+  width: 40px;
+  margin-top: 12px;
+  margin-right: 10px;
+  background-color: red;
+  transform: skew(+14deg);
+  border: none;
+}
+ .top-stroke {
+  height: 1px;
+ }
+ .mid-stroke {
+  height: 2.3px;
+ }
+ .butt-stroke {
+  height: 2px;
+ }
+ .top-stroke, .mid-stroke, .butt-stroke
+ {
+  width: 20px;
+  background-color: rgb(2, 2, 62);
+  margin-top: 2px;
+  margin-left: 9px;
+ }
+
+ .sec-one{
+  background-image: ;
+  background-color: black;
+  height: 480px;
+  width: 100%;
+  text-align: center;
+ }
+
+ .sec-one button{
+  color: red;
+  background-color: white;
+  border: none;
+  transform: skew(+14deg);
+  height: 45px;
+  width: 45px;
+  font-size:25px;
+ }
+
+ .right:hover, .left:hover{
+  background-color: red;
+  color: white;
+ }
+
+ .sec-two, .sec-three{
+  background-color: rgb(26, 8, 44);
+  padding: 0px 15px;
+  
+ }
+ .sec-two h5{
+  font-family:fantasy;
+  text-transform: capitalize;
+  color: red;
+  padding-top: 70px;
+ }
+ .sec-two h3 {
+  color: white;
+  padding-top: 15px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  font-size: larger;
+  padding-bottom: 20px;
+ }
+ .sec-two p{
+  color: #ffffffae;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  font-weight: lighter;
+  padding-bottom: 20px;
+ }
+ .sec-two button{
+  height: 30px;
+  width: 120px;
+  transform: skew(+14deg);
+  margin-right: 10px;
+  font-style: italic;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  border: none;
+ }
+
+ .our-mission:hover, .our-vision:hover, .our-goal:hover{
+  background-color: red;
+  color: #ffffff;
+ }
+
+ .our-mission, .our-vision {
+  margin-bottom: 10px;
+ }
+ .our-goal {
+  margin-bottom: 20px;
+ }
+.sec-three {
+  border-top: 1px solid #ffffffae;
+  border-bottom: 1px solid #ffffffae;
+  display: flex;
+  padding-top: 20px;
+  color: #ffffffae;
+  padding-bottom: 20px;
+}
+
+.white-rocket {
+
+}
+
+.sec-four{
+  background-color: rgb(26, 8, 44);
+}
+.sec-four button{
+  transform: skew(+14deg);
+}
+.mk-appoint {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 40px;
+  width: 220px;
+  font-style: italic;text-transform: capitalize;
+  font-weight: bold;
+}
+.short-butt{
+  display: flex;
+  color: #ffffff;
+  margin-top: 20px;text-transform: capitalize;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: small;
+}
+.call-ex {
+  margin-left: 30px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.call-to {
+  color: #ffffffae;
+}
+
+.sec-five {
+  /* background-image: url("hands-up-dbell-down.jpg"); */
+  padding-left: 15px;
+  background-color: aqua;
+  top: 160px;
+  left: 160px;
+  width: auto;
+  min-height: 500px;
+  height: auto;
+}
+.five-f h5{
+  text-transform: capitalize;
+  padding-top: 70px;
+  color: red;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 10px;
+}
+.five-f p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color: rgb(26, 8, 44);
+  text-shadow: -1px 0 rgb(26, 8, 44), 0 1px rgb(26, 8, 44);
+  padding-bottom: 20px;
+}
+
+.five-s {
+  display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: burlywood;
+  transform: skew(+14deg);
+  height: auto;
+  min-height: 100px;
+  width: 90%;
+  margin: 10px auto;
+  /* top: 160px;
+  left: 160px; */
+
+
+}
+.five-s div{
+  margin: 20px;
+  font-size: smaller;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.five-s h3{
+  color: rgb(26, 8, 44);
+}
+.five-s p{
+  color: #ffffff;
+}
+.sec-five button{
+  display: block;
+  height: 40px;
+  width: 130px;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  transform: skew(+14deg);
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  background-color: red;
+}
+.sec-imng-omega { 
+}
+.sec-six {
+  background-color: rgba(255, 228, 196, 0.766);padding-top: 70px;
+  padding-left: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.static-six h5{
+  color: red;
+}
+.static-six h1{
+  text-transform: capitalize;
+  font-size: x-large;
+  color: rgb(26, 8, 44);
+  text-shadow: -1px 0 rgb(26, 8, 44), 0 1px rgb(26, 8, 44);
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.slide {
+    /* top: 160px;
+  left: 160px; */
+
+}
+
+.static-six button{
+
+}
+
+
+
+ 
