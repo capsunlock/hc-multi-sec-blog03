@@ -21,6 +21,10 @@
   text-align: center;
   padding-top: 15px;
   font-size: larger;
+  position: relative;
+  left: -10px;
+  transform: skew(+14deg);
+  font-style: oblique;
   }
 
 .sec-zero button{
@@ -142,13 +146,21 @@
 .sec-four button{
   transform: skew(+14deg);
 }
+/* make appointment css */
 .mk-appoint {
   margin-top: 20px;
   margin-left: 15px;
   height: 40px;
   width: 220px;
-  font-style: italic;text-transform: capitalize;
+  font-style: italic;
+  text-transform: capitalize;
   font-weight: bold;
+}
+/* make appointment hover css */
+.mk-appoint:hover {
+  background-color: red;
+  border: none;
+  color: white;
 }
 .short-butt{
   display: flex;
@@ -231,6 +243,10 @@
   color: white;
   background-color: red;
 }
+/* read details button hover css */
+.read-d:hover {
+  background-color: rgb(26, 8, 44);
+}
 .sec-imng-omega { 
 }
 .sec-six {
@@ -254,13 +270,138 @@
 .slide {
     /* top: 160px;
   left: 160px; */
-
 }
 
-.static-six button{
-
+.sec-six button{
+  height: 40px;
+  width: 40px;
+  transform: skew(+14deg);
+  font-size: xx-large;
+  color: #ffffff;
+  text-shadow: -1px 0 white, 0 1px white;
+  background-color: rgb(62, 20, 104);
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.sec-six button:hover{
+  background-color: red;
+}
+.a-head-left{
+  margin-right: 30%;
 }
 
+.sec-seven{
+  font-family:Arial, Helvetica, sans-serif;
+  padding-top: 80px ;
+  /* background-image: url(); */
+  background-color: rgb(62, 20, 104);
+}
 
+.sev-zero {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sev-zero h4{
+  text-transform: capitalize;
+  color: red;
+  margin-bottom: 10px;
+  
+}
+.sev-zero h1 {
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-shadow: -1px 0 white, 0 1px white;
+}
+.sev-zero p {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
 
+/* gamne cards */
+.sev-cards {
+  background-color: rgba(245, 245, 245, 0.644);
+  margin-left: 10%;
+  margin-right: 10%;
+  transform: skew(+5deg);
+  height: auto;
+  min-height: 250px;
+  width: 80%;
+  padding-top: 5%;
+  margin-bottom: 7%;
+}
+.sev-cards-top {
+  display: flex;
+  text-transform: capitalize;
+  margin-right: 5%;
+  margin-left: 5%; 
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+}
+.sev-cards-top div{
+  margin-left: auto;
+}
+.sub-div {
+  /* display: inline; */
+  font-size: large;
  
+}
+.sev-cards-top p{
+  font-size: small;
+}
+
+.sev-cards h4{
+  text-transform: capitalize;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.sev-cards p{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.sev-cards button {
+  height: 40px;
+  width: 30%;
+  min-width: 120px;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  transform: skew(+14deg);
+  font-style: oblique;
+  font-weight: bolder;
+  font-size:medium;
+  text-transform: capitalize;
+  border: none;
+  color: #ffffff;
+  background-color: red;
+
+}
+.more-courses {
+  height: 50px;
+  width: 50%;
+  min-width: 200px;
+  font-size:medium;
+  font-style: oblique;
+  text-transform: capitalize;
+  transform: skew(+14deg);
+  color: #ffffff;
+  background-color: red;
+  border: none;
+  margin-bottom: 23%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.sev-cards:hover {
+  background-color:rgb(26, 8, 44);
+  transform: skew(-14deg);
+  color:white
+}
+
+.sev-cards h4{
+  
+}
