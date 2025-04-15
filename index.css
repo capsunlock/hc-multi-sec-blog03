@@ -407,6 +407,7 @@
   transform: skew(-14deg);
   color:white;
 }
+/* seventh section css ("check ouit our latest story") */
 .sec-seventh{
   background-color: #ffffff;
   padding-top: 20%;
@@ -454,7 +455,7 @@
 .sev-mid div{
   margin-left: auto;
 }
-
+/* fullbody workout css */
 .sev-slide-sample h4{
   text-transform: capitalize;
   color: rgb(26, 8, 44);
@@ -473,4 +474,259 @@
   text-transform: capitalize;
   transform: skew(+14deg);
   border: none;
+}
+/* four buttons below fullbody workout */
+.sev-butt-button{
+  text-align: center;
+  height: fit-content;
+}
+.sev-butt-button button{
+  height: 30px;
+  width: 20px;
+  transform: skew(+14deg);
+  border: 7px solid rgb(26, 8, 44);
+  margin-left: 3%;
+  background-color: #f4511e;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+}
+
+.sev-butt-button button:hover{
+  background-color: #ffffff;
+  border: 7px solid #f4511e;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* section nine css (explore fitness center) */
+
+.sec-nine {
+  background-color: rgb(26, 8, 44);
+  height: 300px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.sec-nine h1{
+  padding-top: 70px;
+  padding-bottom: 25px;
+  font-size: xx-large;
+}
+.sec-nine button{
+  height: 50px;
+  width: 35%;
+  transform: skew(+14deg);
+  text-transform: capitalize;
+  font-style: oblique;
+  color: #ffffff;
+  background-color: #f4511e;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.sec-nine button:hover{
+  background-color: #ffffff;
+  color: rgb(26, 8, 44);
+}
+
+/* section ten css */
+.sec-ten {
+  padding-top: 20%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ten-top h4{
+  color: #f4511e;
+  text-transform: capitalize;
+}
+.ten-top h1 {
+  color: rgb(26, 8, 44);
+  text-transform: capitalize;
+  text-shadow: -1px 0 rgb(26, 8, 44);
+  font-size: xx-large;
+  margin-top: 2%;
+}
+.ten-top p{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* section eleven css */
+.sec-ele {
+  background-color: rgb(26, 8, 44);
+  height: 700px;
+  width: 100%;
+  min-width: 450px;
+  padding-top: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.ele-top{
+  text-transform: capitalize;
+}
+.ele-top h4{
+  color: #f4511e;
+  margin-bottom: 3%;
+}
+.ele-top h1{
+  color: white;
+  font-size: xx-large;
+  margin-bottom: 5%;
+}
+.sec-ele button{
+  height: 45px;
+  width: 45px;
+  transform: skew(+14deg);
+  font-size: xx-large;
+  font-style: oblique;
+  color: #ffffff;
+  background-color: #f4511e;
+  border: none;
+  margin-top: 50px;
+}
+.middle-butt-img{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.ele-show{
+  top: -10px;
+}
+.ele-top-p{
+  color: #ffffff;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+  line-height: 2;
+  font-size: larger;
+  font-weight: lighter;
+}
+.ele-show h4{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ele-prof {
+  text-transform: capitalize;
+  color: #8b6c6c;
+}
+
+.sec-thirteen{
+  background-color: rgb(26, 8, 44);
+  margin-top: 15%;
+  padding-top: 80px;
+}
+.top-teen, .tier-two-teen {
+  transform: skew(+14deg);background-color: transparent;
+  text-align:center;
+ 
+}
+.top-teen{
+  margin-bottom: 30px;
+}
+.top-teen input{
+  height: 50px;
+  min-width: 200px;
+  width: 45%;
+  padding-left: 15px;
+  font-size:medium;
+}
+.top-teen button{
+  height: 55px;
+  width: 20%;
+  min-width: 80px;
+  margin-left: 10px; 
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #f4511e;
+  border: none;
+}
+
+.teen-mid-top {
+  padding-left:5%;
+  margin-bottom: 40px;
+}
+.teen-pseudo-top{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+}
+.teen-pseudo-top img {
+  margin-right: 2%;
+}
+.teen-mid-top p{
+  color: #8b6c6c;
+  line-height: 2;
+}
+
+.teen-quick-links {
+  padding-left: 5%;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10%;
+}
+
+.teen-quick-links h3{
+  margin-bottom: 25px;
+}
+
+.teen-quick-links p{
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+.contact-teen{
+  padding-left: 5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 8%;
+}
+.contact-teen h3{
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: medium;
+}
+
+.contact-div-teen {
+  display: flex;
+  margin-top: 15px;
+}
+.contact-div-teen p{
+  margin-top: 10px;
+}
+.teen-omega {
+  color: #ffffff;
+  padding-left: 5%;
+  
+}
+.teen-omega h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.teen-omega div{
+  /* width: 80%; */
+  padding-bottom: 40px;
+}
+.sec-omega {
+  text-align: center;
+  background-color: rgb(26, 8, 44);
+  border-top: 1px solid #8b6c6c;
+  padding-top: 20px;
+  height: 60px;
+  color: #8b6c6c;
+}
+.sec-omega p{
+  margin-bottom: 20px;
 }
