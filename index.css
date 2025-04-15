@@ -17,7 +17,7 @@
   background-color: rgba(9, 9, 95, 0.793);
   height: 45px;
   width: 45%;
-  color: red;
+  color:#f4511e;
   text-align: center;
   padding-top: 15px;
   font-size: larger;
@@ -34,7 +34,7 @@
   width: 40px;
   margin-top: 12px;
   margin-right: 10px;
-  background-color: red;
+ background-color: #f4511e;
   transform: skew(+14deg);
   border: none;
 }
@@ -64,7 +64,7 @@
  }
 
  .sec-one button{
-  color: red;
+  color:#f4511e;
   background-color: white;
   border: none;
   transform: skew(+14deg);
@@ -74,7 +74,7 @@
  }
 
  .right:hover, .left:hover{
-  background-color: red;
+ background-color: #f4511e;
   color: white;
  }
 
@@ -86,7 +86,7 @@
  .sec-two h5{
   font-family:fantasy;
   text-transform: capitalize;
-  color: red;
+  color:#f4511e;
   padding-top: 70px;
  }
  .sec-two h3 {
@@ -117,7 +117,7 @@
  }
 
  .our-mission:hover, .our-vision:hover, .our-goal:hover{
-  background-color: red;
+  background-color: #f4511e;
   color: #ffffff;
  }
 
@@ -152,15 +152,19 @@
   margin-left: 15px;
   height: 40px;
   width: 220px;
-  font-style: italic;
+  font-style: italic; 
+  background-color: #f4511e;
+  color: white;
   text-transform: capitalize;
   font-weight: bold;
+  border: none;
 }
 /* make appointment hover css */
 .mk-appoint:hover {
-  background-color: red;
-  border: none;
-  color: white;
+ 
+  border: 2px solid#f4511e;
+  color: rgb(26, 8, 44);
+  background-color: white;
 }
 .short-butt{
   display: flex;
@@ -192,7 +196,7 @@
 .five-f h5{
   text-transform: capitalize;
   padding-top: 70px;
-  color: red;
+  color:#f4511e;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-bottom: 10px;
 }
@@ -232,7 +236,8 @@
 .sec-five button{
   display: block;
   height: 40px;
-  width: 130px;
+  width: 40%;
+  min-width: 150px;
   border: none;
   margin-left: 10px;
   margin-bottom: 40px;
@@ -241,11 +246,12 @@
   font-weight: bold;
   text-transform: capitalize;
   color: white;
-  background-color: red;
+ background-color: #f4511e;
 }
 /* read details button hover css */
 .read-d:hover {
-  background-color: rgb(26, 8, 44);
+  background-color: white;
+  color: rgb(26, 8, 44);
 }
 .sec-imng-omega { 
 }
@@ -256,7 +262,7 @@
   text-align: center;
 }
 .static-six h5{
-  color: red;
+  color:#f4511e;
 }
 .static-six h1{
   text-transform: capitalize;
@@ -285,7 +291,7 @@
   margin-bottom: 50px;
 }
 .sec-six button:hover{
-  background-color: red;
+  background-color: #f4511e;
 }
 .a-head-left{
   margin-right: 30%;
@@ -304,7 +310,7 @@
 }
 .sev-zero h4{
   text-transform: capitalize;
-  color: red;
+  color:#f4511e;
   margin-bottom: 10px;
   
 }
@@ -330,6 +336,7 @@
   width: 80%;
   padding-top: 5%;
   margin-bottom: 7%;
+  transition: 0.5s;
 }
 .sev-cards-top {
   display: flex;
@@ -377,8 +384,7 @@
   text-transform: capitalize;
   border: none;
   color: #ffffff;
-  background-color: red;
-
+  background-color: #f4511e;
 }
 .more-courses {
   height: 50px;
@@ -389,7 +395,7 @@
   text-transform: capitalize;
   transform: skew(+14deg);
   color: #ffffff;
-  background-color: red;
+  background-color: #f4511e;
   border: none;
   margin-bottom: 23%;
   margin-left: 25%;
@@ -399,9 +405,72 @@
 .sev-cards:hover {
   background-color:rgb(26, 8, 44);
   transform: skew(-14deg);
-  color:white
+  color:white;
+}
+.sec-seventh{
+  background-color: #ffffff;
+  padding-top: 20%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.seventh-top {
+  text-align: center;
+}
+.seventh-top h4{
+  text-transform: capitalize;
+  color: #f4511e;
+  margin-bottom: 2%;
+}
+.seventh-top h1 {
+  text-transform: capitalize;
+  color: rgb(26, 8, 44);
+  font-size: x-large;
+  text-shadow: -1px 0 rgb(26, 8, 44), 0 1px rgb(26, 8, 44);
+  margin-bottom: 8%;
+}
+.seventh-top p {
+  color: #8b6c6c;
+  padding-bottom: 5%;
+}
+.sev-slide-sample{
+  background-color: palegreen;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: auto;
+  /* min-height: 400px; */
+  /* min-width: 360px; */
+  padding: 5%;
+}
+.sev-top-i {
+  margin-bottom: 5%;
+}
+.sev-mid {
+  display: flex;
+  background-color: bisque;
+  margin-bottom: 7%;
+}
+.sev-mid-i {
+  margin-right: auto;
+}
+.sev-mid div{
+  margin-left: auto;
 }
 
-.sev-cards h4{
-  
+.sev-slide-sample h4{
+  text-transform: capitalize;
+  color: rgb(26, 8, 44);
+  margin-bottom: 7%;
+  /* font-size: smaller; */
+  font-weight: bolder;
+  text-shadow: -1px 0 rgb(26, 8, 44);
+}
+.sev-slide-sample p{
+  color: #8b6c6c;
+  margin-bottom: 5%;
+}
+.sev-slide-sample button{
+  height: 40px;
+  width: 40%;
+  text-transform: capitalize;
+  transform: skew(+14deg);
+  border: none;
 }
