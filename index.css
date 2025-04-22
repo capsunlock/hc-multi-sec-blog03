@@ -56,11 +56,24 @@
  }
 
  .sec-one{
-  background-image: ;
-  background-color: black;
+  background-color: #111;
   height: 480px;
   width: 100%;
   text-align: center;
+ }
+
+ @media only screen and (max-width:600px) {
+  .sec-one::before{
+    content: "";
+    background-image: url("images/top-top-one-switch.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: skew(-7deg);
+  }
  }
 
  .sec-one button{
@@ -114,6 +127,7 @@
   text-transform: capitalize;
   background-color: #ffffff;
   border: none;
+  font-weight: bold;
  }
 
  .our-mission:hover, .our-vision:hover, .our-goal:hover{
@@ -123,6 +137,9 @@
 
  .our-mission, .our-vision {
   margin-bottom: 10px;
+ }
+ .our-vision {
+  margin-left: 10px;
  }
  .our-goal {
   margin-bottom: 20px;
@@ -182,6 +199,11 @@
 .call-to {
   color: #ffffffae;
 }
+.sec-four-lastimg {
+  min-height: 400px;
+  width: 100%;
+  min-width: 400px;
+}
 
 .sec-five {
   /* background-image: url("hands-up-dbell-down.jpg"); */
@@ -211,7 +233,7 @@
 .five-s {
   display: flex;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: burlywood;
+  background-color: transparent;
   transform: skew(+14deg);
   height: auto;
   min-height: 100px;
@@ -219,8 +241,10 @@
   margin: 10px auto;
   /* top: 160px;
   left: 160px; */
-
-
+}
+.five-s img{
+  height: 60px;
+  width: 60px;
 }
 .five-s div{
   margin: 20px;
@@ -253,7 +277,10 @@
   background-color: white;
   color: rgb(26, 8, 44);
 }
-.sec-imng-omega { 
+.sec-img-omega {
+  min-height: 400px;
+  width: 100%;
+  min-width: 350px;
 }
 .sec-six {
   background-color: rgba(255, 228, 196, 0.766);padding-top: 70px;
@@ -273,12 +300,90 @@
   padding-bottom: 30px;
 }
 
+.six-mid-belt {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+  height: 450px;
+  background-color: #ffffff;
+  transform: skew(+7deg);
+  margin-top: 30px;
+  transition: 1s;
+}
+
+.six-mid-belt:hover {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(26, 8, 44);
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+  height: 450px;
+  transform: skew(+7deg);
+  margin-top: 30px;  
+  transition: 0.5s;
+}
+
+.six-mid-belt:hover > h1 {
+    color: #f4511e;
+  }
+
+.six-mid-belt button:hover {
+  background-color: #ffffff;
+  color: rgb(26, 8, 44);
+  border: 5px solid #f4511e;
+  transition: 0.5s;
+  
+}
+
+.six-mid-belt img{
+  min-height: 150px;
+  width: 100%;
+  border-bottom: 4px solid rgb(2, 2, 62);
+  transition: 1s;
+}
+.six-mid-belt:hover > img {
+  color: #111;
+  background: greenyellow;
+  box-shadow: 0 0 100px greenyellow;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transition: 0.8s;
+}
+.six-mid-belt h1{
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 25px;
+  color: rgb(26, 8, 44);
+}
+.six-mid-belt p{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #a08c8c;
+  font-size: large;
+  line-height: 23px;
+}
+.six-mid-belt button{
+  text-transform: capitalize; 
+  margin-top: 20px;
+  height: 40px;
+  width: 40%;
+  min-width: 120px;
+  transform: skew(+14deg);
+  font-style: oblique;
+  background-color: #f4511e;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
 .slide {
     /* top: 160px;
   left: 160px; */
 }
 
-.sec-six button{
+.a-head-left, .a-head-right{
   height: 40px;
   width: 40px;
   transform: skew(+14deg);
@@ -290,7 +395,7 @@
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.sec-six button:hover{
+.a-head-left:hover, .a-head-right:hover{
   background-color: #f4511e;
 }
 .a-head-left{
@@ -338,6 +443,11 @@
   margin-bottom: 7%;
   transition: 0.5s;
 }
+.sev-cards:hover {
+  background-color:rgb(26, 8, 44);
+  transform: skew(-14deg);
+  color:white;
+}
 .sev-cards-top {
   display: flex;
   text-transform: capitalize;
@@ -349,6 +459,10 @@
 }
 .sev-cards-top div{
   margin-left: auto;
+}
+.sev-cards-top img{
+  height: 85px;
+  background-color: transparent;
 }
 .sub-div {
   /* display: inline; */
@@ -385,6 +499,15 @@
   border: none;
   color: #ffffff;
   background-color: #f4511e;
+  
+}
+.sev-cards button:hover{
+  color: #f4511e;
+  background-color: #ffffff;
+  border: 4px solid #f4511e;
+}
+.sev-cards:hover > button{
+  transform: skew(+18deg);
 }
 .more-courses {
   height: 50px;
@@ -401,12 +524,13 @@
   margin-left: 25%;
   margin-right: 25%;
 }
-
-.sev-cards:hover {
-  background-color:rgb(26, 8, 44);
-  transform: skew(-14deg);
-  color:white;
+.more-courses:hover {
+  background-color: white;
+  color: rgb(26, 8, 44);
+  border: 2px solid #f4511e;
 }
+
+
 /* seventh section css ("check ouit our latest story") */
 .sec-seventh{
   background-color: #ffffff;
@@ -503,12 +627,26 @@
 /* section nine css (explore fitness center) */
 
 .sec-nine {
-  background-color: rgb(26, 8, 44);
   height: 300px;
+  width: 100%;
+  max-width: ;
   color: #ffffff;
   text-transform: capitalize;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+}
+@media only screen and (max-width: 600px){
+  .sec-nine {
+    background-image: url("images/backflex.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .sec-nine {
+
+  }
 }
 .sec-nine h1{
   padding-top: 70px;
@@ -538,6 +676,7 @@
   padding-top: 20%;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
 }
 .ten-top h4{
   color: #f4511e;
@@ -559,13 +698,15 @@
 /* section eleven css */
 .sec-ele {
   background-color: rgb(26, 8, 44);
-  height: 700px;
+  min-height: 750px;
   width: 100%;
-  min-width: 450px;
+  min-width: 40px;
   padding-top: 20%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  position: sticky;
 }
+
 .ele-top{
   text-transform: capitalize;
 }
@@ -592,6 +733,7 @@
 .middle-butt-img{
   margin-left: 30%;
   margin-right: 30%;
+  top: -100px;
 }
 
 .ele-show{
@@ -712,12 +854,25 @@
 .teen-omega h3{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: capitalize;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .teen-omega div{
   /* width: 80%; */
   padding-bottom: 40px;
+}
+.teen-omega-recentwork{
+}
+.teen-omega-recentwork img{
+  min-height: 40px;
+  width: 22%;
+  transform: skewY(-5deg);
+  padding: 4px;
+  transition: 0.5s;
+}
+.teen-omega-recentwork img:hover{
+  transform: skewY(+5deg);
+  transition: 0.5s;
 }
 .sec-omega {
   text-align: center;
