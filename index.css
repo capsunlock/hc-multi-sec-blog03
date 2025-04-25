@@ -62,7 +62,7 @@
   text-align: center;
  }
 
- @media only screen and (max-width:600px) {
+ /* @media only screen and (max-width:600px) {
   .sec-one::before{
     content: "";
     background-image: url("images/top-top-one-switch.jpg");
@@ -74,7 +74,7 @@
     right: 0;
     transform: skew(-7deg);
   }
- }
+ } */
 
  .sec-one button{
   color:#f4511e;
@@ -195,6 +195,9 @@
   height: 40px;
   width: 40px;
   margin-right: 10px;
+}
+.call-ex img{
+  height: 25px;
 }
 .call-to {
   color: #ffffffae;
@@ -556,22 +559,45 @@
   color: #8b6c6c;
   padding-bottom: 5%;
 }
+/* slideshow images css */
 .sev-slide-sample{
   background-color: palegreen;
-  margin-left: 5%;
-  margin-right: 5%;
-  height: auto;
-  /* min-height: 400px; */
-  /* min-width: 360px; */
-  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 500px;
+  width: 70%;
+  /* padding: 7%; */
+  border: 2px solid #f4511e;
 }
+.sev-slidetop {
+
+  height: 205px;
+}
+.sev-slide-sample:hover > .sev-slidetop > .sev-top-i{
+  margin: 0;
+  width: 100%;
+  transition: 0.5s;
+}
+
 .sev-top-i {
-  margin-bottom: 5%;
+  width: 80%;
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 6%;
+  transition: 0.5s;
+
+}
+.sev-cover-mid {
+   padding: 10%;
 }
 .sev-mid {
   display: flex;
-  background-color: bisque;
+  background-color: rgb(26, 8, 44);
   margin-bottom: 7%;
+  color: rgba(255, 255, 255, 0.76);
+  height: 30px;
+  padding-top: 10px;
+ 
 }
 .sev-mid-i {
   margin-right: auto;
@@ -595,9 +621,20 @@
 .sev-slide-sample button{
   height: 40px;
   width: 40%;
+  min-width: 150px;
+  font-style: oblique;
   text-transform: capitalize;
   transform: skew(+14deg);
   border: none;
+  background-color: rgb(26, 8, 44);
+  color: #f4511e;
+  font-size: large;
+  transition: 0.5s;}
+
+.sev-slide-sample button:hover{
+  background-color: #f4511e;
+  color: #ffffff;
+  transition: 0.5s;
 }
 /* four buttons below fullbody workout */
 .sev-butt-button{
@@ -694,7 +731,49 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+.trainer-cards{
+  transform: skewY(-4deg);
+  margin-bottom: 50px; 
+  margin-top: 50px;
+  transition: 0.5s;
+}
+.trainer-cards img{
+ width: 89%;
 
+}
+.trainer-cards div{
+  text-transform: capitalize;
+  border: 2px solid #f4511e;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ 
+}
+.trainer-cards:hover{
+  transform: skewY(+8deg);
+  transition: 0.5s;
+}
+.trainer-cards:hover > div{
+  background-color: rgb(26, 8, 44);
+  border: none;
+  width: 89%;
+}
+.trainer-cards:hover h5 {
+  color: white;
+}
+
+.trainer-cards h5{
+  color: rgb(26, 8, 44);
+  font-size: medium;
+  padding-bottom: 10px;
+ 
+}
+.trainer-cards p{
+  color: #a08c8c;
+}
 /* section eleven css */
 .sec-ele {
   background-color: rgb(26, 8, 44);
@@ -767,12 +846,13 @@
   padding-top: 80px;
 }
 .top-teen, .tier-two-teen {
-  transform: skew(+14deg);background-color: transparent;
+  background-color: transparent;
   text-align:center;
  
 }
 .top-teen{
   margin-bottom: 30px;
+  transform: skew(+14deg);
 }
 .top-teen input{
   height: 50px;
@@ -791,7 +871,10 @@
   background-color: #f4511e;
   border: none;
 }
-
+.tier-two-teen img{
+  height: 40px;
+  text-align: center;
+}
 .teen-mid-top {
   padding-left:5%;
   margin-bottom: 40px;
@@ -806,6 +889,8 @@
 }
 .teen-pseudo-top img {
   margin-right: 2%;
+  margin-top: -10px;
+  height: 40px;
 }
 .teen-mid-top p{
   color: #8b6c6c;
@@ -841,7 +926,11 @@
 
 .contact-div-teen {
   display: flex;
-  margin-top: 15px;
+  margin-top: 25px;
+}
+.contact-div-teen img{
+  height: 40px;
+  margin-right: 20px;
 }
 .contact-div-teen p{
   margin-top: 10px;
