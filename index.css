@@ -9,7 +9,7 @@
   justify-content: space-between;
   text-transform: capitalize;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: 99%;
+  width: 100%;
   height: 60px;
 }
 /* css blue background */
@@ -58,7 +58,7 @@
  .sec-one{
   background-color: #111;
   height: 480px;
-  width: 100%;
+  width: 107%;
   text-align: center;
  }
 
@@ -94,6 +94,7 @@
  .sec-two, .sec-three{
   background-color: rgb(26, 8, 44);
   padding: 0px 15px;
+  width: 100%;
   
  }
  .sec-two h5{
@@ -159,6 +160,7 @@
 
 .sec-four{
   background-color: rgb(26, 8, 44);
+  width: 100%;
 }
 .sec-four button{
   transform: skew(+14deg);
