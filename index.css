@@ -597,7 +597,13 @@
   color: rgba(255, 255, 255, 0.76);
   height: 30px;
   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
  
+}
+.sev-mid img{
+  height: 15px;
 }
 .sev-mid-i {
   margin-right: auto;
