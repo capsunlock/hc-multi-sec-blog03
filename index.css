@@ -97,20 +97,20 @@
   background-color: rgb(26, 8, 44);
   /* padding-left: 5px; */
   width: 100%;
-  
  }
+
  .sec-two h5{
   font-family:fantasy;
   text-transform: capitalize;
   color:#f4511e;
   padding-top: 70px;
+  margin-left: 10px; 
  }
  .sec-two h3 {
   color: white;
   padding-top: 15px;
-
+  margin-left: 10px; 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
   font-size: larger;
   padding-bottom: 20px;
  }
@@ -120,12 +120,13 @@
   font-size: small;
   font-weight: lighter;
   padding-bottom: 20px;
+  margin-left: 10px; 
  }
  .sec-two button{
   height: 30px;
   width: 120px;
   transform: skew(+14deg);
-  margin-right: 10px;
+  /* margin-right: 10px; */
   font-style: italic;
   text-transform: capitalize;
   background-color: #ffffff;
@@ -140,12 +141,14 @@
 
  .our-mission, .our-vision {
   margin-bottom: 10px;
+  margin-left: 10px; 
  }
  .our-vision {
-  margin-left: 10px;
+  margin-left: 20px;
  }
  .our-goal {
   margin-bottom: 20px;
+  margin-left: 10px; 
  }
 .sec-three {
   border-top: 1px solid #ffffffae;
