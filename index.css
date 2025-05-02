@@ -587,7 +587,7 @@ img {
 .sev-slide-sample:hover > .sev-slidetop > .sev-top-i{
   margin: 0;
   width: 100%;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .sev-top-i {
@@ -596,7 +596,7 @@ img {
   margin-right: 10%;
   margin-top: 6%;
   margin-bottom: 7%;
-  transition: 0.5s;
+  transition: 0.2s;
 
 }
 .sev-cover-mid {
@@ -796,11 +796,12 @@ img {
   background-color: rgb(26, 8, 44);
   min-height: 750px;
   width: 100%;
+  padding-bottom: 30px;
   min-width: 40px;
   padding-top: 20%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
-  position: sticky;
+  /* position: sticky; */
 }
 
 .ele-top{
@@ -845,7 +846,7 @@ img {
   font-weight: lighter;
 }
 .ele-show h4{
-  margin-top: 25px;
+  margin-top: 40px;
   margin-bottom: 10px;
   color: #ffffff;
   text-transform: capitalize;
@@ -890,6 +891,7 @@ img {
 }
 .tier-two-teen img{
   height: 40px;
+  /* transform: skew(-14deg); */
   text-align: center;
 }
 
@@ -956,6 +958,7 @@ img {
 .teen-omega {
   color: #ffffff;
   padding-left: 5%;
+  padding-right: 5px;
   
 }
 .teen-omega h3{
@@ -972,7 +975,8 @@ img {
 }
 .teen-omega-recentwork img{
   min-height: 40px;
-  width: 22%;
+  width: 20%;
+  min-width: 50px;
   transform: skewY(-5deg);
   padding: 4px;
   transition: 0.5s;
