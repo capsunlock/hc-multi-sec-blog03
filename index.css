@@ -1,8 +1,10 @@
-/* css page */
 *{
   margin: 0px;
+  padding: 0px;
 }
-
+img {
+ 
+}
 /* first section -> blue and white surface */
 .sec-zero{
   display: flex;
@@ -25,8 +27,6 @@
   left: -10%;
   transform: skew(+14deg);
   font-style: oblique;
-  }
-  .blank-surf {
   }
 
 .sec-zero button{
@@ -162,7 +162,6 @@
 .white-rocket {
 
 }
-
 .sec-four{
   background-color: rgb(26, 8, 44);
   width: 100%;
@@ -210,11 +209,12 @@
   color: #ffffffae;
 }
 .sec-four-lastimg {
-  min-height: 400px;
+  min-height: 250px;
+  height: auto;
   width: 100%;
-  min-width: 400px;
+  min-width: 250px;
+  
 }
-
 .sec-five {
   /* background-image: url("hands-up-dbell-down.jpg"); */
   padding-left: 15px;
@@ -253,14 +253,15 @@
   left: 160px; */
 }
 .five-s img{
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 .five-s div{
-  margin: 20px;
+  padding: 10px;
   font-size: smaller;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .five-s h3{
   color: rgb(26, 8, 44);
 }
@@ -288,9 +289,10 @@
   color: rgb(26, 8, 44);
 }
 .sec-img-omega {
-  min-height: 400px;
+  min-height: 250px;
+  height: auto;
   width: 100%;
-  min-width: 350px;
+  min-width: 250px;
 }
 .sec-six {
   background-color: rgba(255, 228, 196, 0.766);padding-top: 70px;
@@ -312,10 +314,10 @@
 
 .six-mid-belt {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: auto;
+  margin-left: auto; 
   margin-right: auto;
-  width: 230px;
-  height: 450px;
+  width: 70%;
+  min-height: 500px;
   background-color: #ffffff;
   transform: skew(+7deg);
   margin-top: 30px;
@@ -327,13 +329,12 @@
   background-color: rgb(26, 8, 44);
   margin-left: auto;
   margin-right: auto;
-  width: 230px;
+  width: 70%;
   height: 450px;
   transform: skew(+7deg);
   margin-top: 30px;  
   transition: 0.5s;
 }
-
 .six-mid-belt:hover > h1 {
     color: #f4511e;
   }
@@ -352,6 +353,7 @@
   border-bottom: 4px solid rgb(2, 2, 62);
   transition: 1s;
 }
+
 .six-mid-belt:hover > img {
   color: #111;
   background: greenyellow;
@@ -413,10 +415,12 @@
 }
 
 .sec-seven{
+  width: 100%;
   font-family:Arial, Helvetica, sans-serif;
   padding-top: 80px ;
   /* background-image: url(); */
   background-color: rgb(62, 20, 104);
+  text-align: center;
 }
 
 .sev-zero {
@@ -445,7 +449,7 @@
   background-color: rgba(245, 245, 245, 0.644);
   margin-left: 10%;
   margin-right: 10%;
-  transform: skew(+5deg);
+  transform: skew(5deg);
   height: auto;
   min-height: 250px;
   width: 80%;
@@ -455,7 +459,7 @@
 }
 .sev-cards:hover {
   background-color:rgb(26, 8, 44);
-  transform: skew(-14deg);
+  transform: skew(-5deg);
   color:white;
 }
 .sev-cards-top {
@@ -519,10 +523,11 @@
 .sev-cards:hover > button{
   transform: skew(+18deg);
 }
+
 .more-courses {
   height: 50px;
   width: 50%;
-  min-width: 200px;
+  min-width: 120px;
   font-size:medium;
   font-style: oblique;
   text-transform: capitalize;
@@ -539,7 +544,6 @@
   color: rgb(26, 8, 44);
   border: 2px solid #f4511e;
 }
-
 
 /* seventh section css ("check ouit our latest story") */
 .sec-seventh{
@@ -577,9 +581,9 @@
   border: 2px solid #f4511e;
 }
 .sev-slidetop {
-
-  height: 205px;
+  min-height: 100px;
 }
+
 .sev-slide-sample:hover > .sev-slidetop > .sev-top-i{
   margin: 0;
   width: 100%;
@@ -591,6 +595,7 @@
   margin-left:10%;
   margin-right: 10%;
   margin-top: 6%;
+  margin-bottom: 7%;
   transition: 0.5s;
 
 }
@@ -606,9 +611,8 @@
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
-
- 
 }
+
 .sev-mid img{
   height: 15px;
 }
@@ -865,11 +869,11 @@
 }
 .top-teen{
   margin-bottom: 30px;
-  transform: skew(+14deg);
 }
+
 .top-teen input{
   height: 50px;
-  min-width: 200px;
+  width: 200px;
   width: 45%;
   padding-left: 15px;
   font-size:medium;
@@ -888,6 +892,7 @@
   height: 40px;
   text-align: center;
 }
+
 .teen-mid-top {
   padding-left:5%;
   margin-bottom: 40px;
